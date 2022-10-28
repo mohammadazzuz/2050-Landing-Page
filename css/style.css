@@ -1,0 +1,88 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+.f-400{
+    font-weight: 400;
+}
+.f-700{
+    font-weight: 700;
+}
+/**navbar**/
+.nav-link{
+color: #222222;
+font-size: 18px;
+font-weight: 700;
+display: inline-block;
+text-transform: capitalize;
+padding: 53px 0;
+position: relative;
+}
+
+.active{
+    color: #6c63ff !important; 
+}
+
+.navbar-nav :hover{
+    color: #6c63ff;
+}
+
+.icon-hover :hover{
+    color: black;
+}
+.gg-facebook{
+    color: #3b5998;
+}
+.gg-twitter{
+    color: #1da1f2;
+}
+.gg-google{
+    color: #dd4b39;
+}
+/**end-navbar**/
+
+/**section 1**/
+
+.slider-span{
+    font-size: 24px;
+    line-height: 2;
+    color: #6c63ff;
+}
+.slider-header{
+    font-size: 60px;
+    padding-bottom: 20px;
+    color: #222222;
+}
+.slider-p{
+    font-size: 24px;
+    list-style: 1.4;
+    margin-bottom: 1rem;
+}
+.btn{
+    padding: 12px 58px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid #6c63ff;
+    box-shadow: 0px 5px 15px 0px rgba(8, 0, 140, 0.19);
+    border-radius: 28px;
+    color: #fff;
+    outline: 0 none;
+    text-transform: capitalize;
+    transition: .3s;
+    background-color: #6c63ff;
+    margin-top: 25px;
+}
+
+.btn:hover{
+    color: #6c63ff;
+    border-color: #6c63ff;
+    background-color: #fff;
+}
+/**end-section 1**/
+
+/**section 2**/
+
+.about-img{
+    margin-left: -340px;
+    margin-right: 50px;
+}
